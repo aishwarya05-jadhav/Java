@@ -17,7 +17,8 @@ public class JavaConstructors {
 		  4. Default Constructor - a constructor that is automatically created by the java compiler if not explicitly defined
 		  
 		  5. A constructor cannot be abstract or static or final
-		  
+		  //static means class ka part hona chaiye
+		   
 		  6. A constructor can be overloaded but not overridden
 		  
 		 */
