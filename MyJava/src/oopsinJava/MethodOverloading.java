@@ -1,4 +1,4 @@
-package OOPSinJava;
+package oopsinJava;
 
 public class MethodOverloading {
 	public static void main(String[] args) {

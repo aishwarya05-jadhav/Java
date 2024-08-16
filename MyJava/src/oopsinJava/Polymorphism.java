@@ -1,4 +1,4 @@
-package OOPSinJava;
+package oopsinJava;
 
 public class Polymorphism {
 

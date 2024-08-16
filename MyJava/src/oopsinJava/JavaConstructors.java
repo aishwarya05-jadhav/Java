@@ -1,4 +1,4 @@
-package OOPSinJava;
+package oopsinJava;
 
 public class JavaConstructors {
 	public static void main(String[] args) {
@@ -29,10 +29,6 @@ public class JavaConstructors {
 		
 		Complex obj2 = new Complex(2,3);
 		obj2.myprint();
-		
-		
-		
-		
 		
 	}
 }

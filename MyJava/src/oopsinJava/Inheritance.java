@@ -1,6 +1,15 @@
-package OOPSinJava;
+package oopsinJava;
 
-public class Inheritance {
+
+class Vehicle{
+	int wheelsCount;
+	
+	void start() {
+		System.out.println("Vehicle is starting");
+		
+	}
+}
+public class Inheritance extends Vehicle {
 	public static void main(String[] args) {
 		/* 
 		 1. Inheritance is one of the key featured of OOP that allows us to create a 
@@ -13,10 +22,17 @@ public class Inheritance {
 	
 		//Inheritance is achieve using "extends" keyword
 		
+		//Single level Inheritance
+		//Multilevel Inheritance
+		//Hybrid  //hierarchy
+		//Multiple Inheritance is not allowed in Java
 		
+		/*
+		Inheritance obj = new Inheritance();
+		obj.wheelsCount = 4;
+		obj.start();
+	*/
 		
-		
-		
-		
-	}
 }
+}
+

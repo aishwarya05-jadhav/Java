@@ -1,4 +1,4 @@
-package OOPSinJava;
+package oopsinJava;
 
 
 //If we want to solve real world problems we need object oriented programming
