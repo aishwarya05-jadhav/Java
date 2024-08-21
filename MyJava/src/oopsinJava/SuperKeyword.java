@@ -4,7 +4,7 @@ class Man{
 	public void sound() {
 	System.out.println("humans speak");
 	}
-	Man(){
+	Man(){//constructor
 		System.out.println("Creating a Man instance");
 	}
 }
@@ -14,7 +14,7 @@ public class SuperKeyword extends Man {
 	public void sound() {
 		super.sound();
 	}
-	SuperKeyword(){
+	SuperKeyword(){//constructor
 		System.out.println("superrrrr");
 		
 	}
@@ -31,7 +31,7 @@ public class SuperKeyword extends Man {
 		  3.It is used to invoke a constructor of the immediate parent class
 		  
 		  */
-		SuperKeyword obj = new SuperKeyword();
+		SuperKeyword obj = new SuperKeyword();  //pehle upar wale class ke matlab parent class ke default constructor call honge
 		obj.sound();
 		
 		
