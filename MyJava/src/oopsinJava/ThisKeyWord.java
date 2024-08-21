@@ -1,6 +1,17 @@
 package oopsinJava;
 
 public class ThisKeyWord {
+	int rollno;
+	//String name;
+	int marks;
+	
+	//constructor with parameter
+	public ThisKeyWord(int rollno, int marks) {
+		this.rollno = rollno;
+		this.marks = marks;
+		
+	
+	}
 	public static void main(String[] args) {
 		
 		/*
@@ -8,7 +19,10 @@ public class ThisKeyWord {
 		 
 		  2. We mostly use this keyword to remove any Ambiguity in variable names
 		  we can also use this to invoke methods of the current class or to invoke a constructor 
-		  of the current class */
+		  of the current class 
+		  
+		  The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with 
+		  the same name (because a class attribute is shadowed by a method or constructor parameter).*/
 		
 		//usage of this keyword
 		
@@ -21,9 +35,10 @@ public class ThisKeyWord {
 		
 		//1. this can be used to refer current class instance variable
 		
-		int rollno;
-		String name;
-		int marks;
+		
+		ThisKeyWord obj = new ThisKeyWord(3, 400);
+		System.out.println(obj.rollno);
+		System.out.println(obj.marks);
 		
 		
 		

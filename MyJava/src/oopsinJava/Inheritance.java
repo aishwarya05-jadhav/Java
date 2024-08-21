@@ -20,18 +20,22 @@ public class Inheritance extends Vehicle {
 		  
 		   */
 	
-		//Inheritance is achieve using "extends" keyword
+		//Inheritance is achieved using "extends" keyword
 		
 		//Single level Inheritance
-		//Multilevel Inheritance
-		//Hybrid  //hierarchy
+		//Multilevel Inheritance------inheritance chaining
+		//Hybrid  //hierarchy   means 1 parent multiple child
 		//Multiple Inheritance is not allowed in Java
 		
-		/*
+		
+		//koi bhi class rahega uske upar ek object class hoti hai, aur sabhi objects jitne bhi banege unke pass
+		//bydefault wo sari methods/properties aayegi jo object class ke andar hai
+		
+		
 		Inheritance obj = new Inheritance();
 		obj.wheelsCount = 4;
 		obj.start();
-	*/
+	
 		
 }
 }
