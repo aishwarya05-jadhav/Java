@@ -1,6 +1,11 @@
 package oopsinJava;
 
 public class StaticKeyword {
+	
+	static {    //static block 
+		//this will run before executing anything even main class se pehle ye execute hota hai
+		System.out.println("Called from the static block");
+	}
 
 	
 	/*If we want to access class members without creating an instance of the class,
@@ -16,7 +21,7 @@ public class StaticKeyword {
 	 
 	 * Only a single copy of the static variable is created and shared among all the instances of the class
 	 
-	 * Bacause it is a class-level variable, memory allocation of such variables only happens once when the class is loaded in the memory
+	 * Bacause it is a class-level variable, memory allocation of such variables only happens once when the class is loaded in the memory  //mhanje declare zalya zalya initialize hoil 
 	  
 	 * If an object modifies the value of a static variable, the change is reflected across all objects
 	  
@@ -30,7 +35,7 @@ public class StaticKeyword {
 	 
 	 * They are accessed by the name of the class
 	 
-	 * The keywords such as this and super are not used in the body of the static method
+	 * The keywords such as this and super are not used in the body of the static method  //because wo object ko refer karte hai
 	 
 	 * The modification of the static field value is not allowed*/
 }

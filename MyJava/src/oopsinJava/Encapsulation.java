@@ -5,11 +5,19 @@ class person{
 	private int age;
 	private String name;
 	
+	boolean canChange = true;
+	boolean canbeAccessed = true;
+	
 	public void setAge(int age) {
+		if(canChange) { //we have command that someone can change it or not
 		this.age = age;
+		}
 	}
 	public int getAge() {
-		return age;
+		if(canbeAccessed) {//we have command that someone can access it or not
+			return age;
+		}
+		return -1;
 	}
 }
 public class Encapsulation {

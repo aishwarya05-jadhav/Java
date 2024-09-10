@@ -15,7 +15,7 @@ public class LearnHashMap {
 		numbers.put("five", 5);
 		
 		numbers.put("one", 100); //one key was already their but now it will override
-								//and take latest value entered
+								//and take latest value entered	
 		
 		//if you want to avoid putting elements again with same keys the use below
 		
@@ -50,6 +50,7 @@ public class LearnHashMap {
 		
 		
 		//in hashmap all operation in O(1)
+		
 	}
 }
 
