@@ -10,9 +10,10 @@ class Caaro{
 		this.year = year;
 		
 	}
-	public String toString() {
+	public String toString() {  //override
 		return "Car ka model" + model +"and Car ka year"+year;
 	}
+	
 }
 public class Learn_ObjectClass {
 	public static void main(String[] args) {
